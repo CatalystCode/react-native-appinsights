@@ -1,0 +1,22 @@
+{
+  "name": "react-native-appinsights",
+  "version": "0.1.0",
+  "description": "React Native module for Application Insights on Android, iOS, and Windows.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rozele/react-native-appinsights.git"
+  },
+  "author": "rozele",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rozele/react-native-appinsights/issues"
+  },
+  "homepage": "https://github.com/rozele/react-native-appinsights#readme",
+  "devDependencies": {
+    "react-native-windows": "^0.33.0"
+  }
+}
