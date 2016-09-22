@@ -106,7 +106,7 @@ namespace ReactWindowsApplicationInsights
             _telemetryClient.TrackTrace(message, severityLevel, properties);
         }
 
-        private IDictionary<string, T> ConvertMap<T>(JObject json)
+        private static IDictionary<string, T> ConvertMap<T>(JObject json)
         {
             var result = default(IDictionary<string, T>);
             if (json != null)
